@@ -3,63 +3,63 @@
 [![MIT License](https://img.shields.io/github/license/alan2207/bulletproof-react)](https://github.com/alan2207/bulletproof-react/blob/master/LICENSE)
 [![CI](https://github.com/alan2207/bulletproof-react/actions/workflows/ci.yml/badge.svg)](https://github.com/alan2207/bulletproof-react/actions/workflows/ci.yml)
 
-A simple, scalable, and powerful architecture for building production ready React applications.
+Простая, масштабируемая и мощная архитектура для создания готовых к производству приложений на React.
 
-## Introduction
+## Введение
 
-React is an excellent tool for building front-end applications. It has a diverse ecosystem with hundreds of great libraries for literally anything you might need. However, being forced to make so many choices can be overwhelming. It is also very flexible, you can write React applications in any way you like, but that flexibility comes with a cost. Since there is no pre-defined architecture that developers can follow, it often leads to a messy, inconsistent, and over-complicated codebase.
+React — отличный инструмент для создания фронтенд-приложений. Он имеет разнообразную экосистему с сотнями отличных библиотек для практически любых нужд. Однако необходимость делать так много выборов может быть ошеломляющей. Он также очень гибкий, вы можете писать приложения на React любым удобным вам способом, но эта гибкость имеет свою цену. Поскольку нет предопределенной архитектуры, которой могли бы следовать разработчики, это часто приводит к беспорядочному, непоследовательному и чрезмерно усложненному коду.
 
-This repo attempts to present a way of creating React applications using some of the best tools in the ecosystem with a good project structure that scales very well. Based on my experience working with a lot of different codebases, this architecture turns out to be the most effective.
+Этот репозиторий пытается представить способ создания приложений на React с использованием лучших инструментов в экосистеме и хорошей структуры проекта, которая хорошо масштабируется. На основе моего опыта работы с множеством различных кодовых баз, эта архитектура оказывается наиболее эффективной.
 
-The goal here is to serve as a collection of resources and best practices when developing React applications. It is supposed to showcase solving most of the real-world problems of an application in a practical way and help developers write better applications.
+Цель здесь состоит в том, чтобы служить сборником ресурсов и лучших практик при разработке приложений на React. Он предназначен для того, чтобы демонстрировать решение большинства реальных проблем приложения практическим способом и помогать разработчикам писать лучшие приложения.
 
-Feel free to explore the sample app codebase to get the most value out of the repo.
+Не стесняйтесь изучать кодовую базу примера приложения, чтобы получить максимальную пользу от репозитория.
 
-## What makes a React application "bulletproof"?
+## Что делает приложение на React "непробиваемым"?
 
-This repo doesn't aim to be a silver bullet for all React applications as there are many different use cases, but it tries to provide a solid foundation for building applications based on the following principles:
+Этот репозиторий не претендует на звание универсального решения для всех приложений на React, так как существуют различные варианты использования, но он пытается предоставить надежную основу для создания приложений на основе следующих принципов:
 
-- Easy to get started with
-- Simple to understand and maintain
-- Uses the right tools for the job
-- Clean boundaries between different parts of the application
-- Everyone on the team is on the same page when it comes to how things are done
-- Security
-- Performance
-- Scalability in terms of codebase and team size
-- Issues detectable as early as possible
+- Легкость начала работы
+- Простота понимания и поддержки
+- Использование правильных инструментов для конкретной задачи
+- Четкие границы между различными частями приложения
+- Все участники команды на одной волне в вопросах того, как все устроено
+- Безопасность
+- Производительность
+- Масштабируемость в отношении кода и размера команды
+- Обнаружение проблем как можно раньше
 
-#### Disclaimer:
+#### Отказ от ответственности:
 
-This is not supposed to be a template, boilerplate or a framework. It is an opinionated guide that shows how to do some things in a certain way. You are not forced to do everything exactly as it is shown here, decide what works best for you and your team and stay consistent with your style.
+Это не шаблон, сборка или фреймворк. Это мнение, показывающее, как делать некоторые вещи определенным образом. Вас не заставляют делать все точно так, как показано здесь, решите, что лучше всего подходит для вас и вашей команды, и придерживайтесь своего стиля.
 
-To get most out of it, do not get limited by the technologies used in this sample app, but rather focus on the principles and the concepts that are being presented here. The tools and libraries used here are just a suggestion, you can always replace them with something that fits your needs better. Sometimes, your project might require a slightly different approach, and that's totally fine.
+Чтобы извлечь максимальную пользу, не ограничивайтесь технологиями, использованными в этом примере приложения, а сосредоточьтесь на принципах и концепциях, представленных здесь. Инструменты и библиотеки, использованные здесь, — это всего лишь предложение, вы всегда можете заменить их на что-то, что лучше подходит вашим нуждам. Иногда вашему проекту может потребоваться несколько иной подход, и это совершенно нормально.
 
-## Table Of Contents:
+## Содержание:
 
-- [💻 Application Overview](docs/application-overview.md)
-- [⚙️ Project Standards](docs/project-standards.md)
-- [🗄️ Project Structure](docs/project-structure.md)
-- [🧱 Components And Styling](docs/components-and-styling.md)
-- [📡 API Layer](docs/api-layer.md)
-- [🗃️ State Management](docs/state-management.md)
-- [🧪 Testing](docs/testing.md)
-- [⚠️ Error Handling](docs/error-handling.md)
-- [🔐 Security](docs/security.md)
-- [🚄 Performance](docs/performance.md)
-- [🌐 Deployment](docs/deployment.md)
-- [📚 Additional Resources](docs/additional-resources.md)
+- [💻 Обзор приложения](docs/application-overview.md)
+- [⚙️ Стандарты проекта](docs/project-standards.md)
+- [🗄️ Структура проекта](docs/project-structure.md)
+- [🧱 Компоненты и стили](docs/components-and-styling.md)
+- [📡 API слой](docs/api-layer.md)
+- [🗃️ Управление состоянием](docs/state-management.md)
+- [🧪 Тестирование](docs/testing.md)
+- [⚠️ Обработка ошибок](docs/error-handling.md)
+- [🔐 Безопасность](docs/security.md)
+- [🚄 Производительность](docs/performance.md)
+- [🌐 Развертывание](docs/deployment.md)
+- [📚 Дополнительные ресурсы](docs/additional-resources.md)
 
-## Contributing
+## Вклад
 
-Contributions are always welcome! If you have any ideas, suggestions, fixes, feel free to contribute. You can do that by going through the following steps:
+Вклады всегда приветствуются! Если у вас есть идеи, предложения, исправления, не стесняйтесь вносить вклад. Вы можете сделать это, выполнив следующие шаги:
 
-1. Clone this repo
-2. Create a branch: `git checkout -b your-feature`
-3. Make some changes
-4. Test your changes
-5. Push your branch and open a Pull Request
+1. Клонируйте этот репозиторий
+2. Создайте ветку: git checkout -b your-feature
+3. Внесите изменения
+4. Протестируйте свои изменения
+5. Запушьте свою ветку и откройте Pull Request
 
-## License
+## Лицензия
 
 [MIT](/LICENSE)
